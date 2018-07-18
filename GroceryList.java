@@ -42,17 +42,12 @@ public class GroceryList{
         out.print("What is the price of " + item3 + "?");
         item3price = keyboard.nextFloat();
 
-        float totalprice;
 
-        out.print ("The total price of your grocery bill is " +(item1price*item1quantity) + (item2price*item2quantity) + (item3price*item3quantity));
-
+        out.print ("The total price of your grocery bill is " +((item1price*item1quantity) + (item2price*item2quantity) + (item3price*item3quantity)));
 
 
 
 
-
-        float totalpriceitem1 = item1quantity;
-        out.print("The order price of" + totalpriceitem1);
 
 
 
